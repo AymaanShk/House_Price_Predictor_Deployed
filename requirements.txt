@@ -1,4 +1,5 @@
 streamlit
 pandas
 numpy
-scikit-learn
+# Try a version around 1.2 or 1.3, which are stable and common
+scikit-learn==1.2.2
