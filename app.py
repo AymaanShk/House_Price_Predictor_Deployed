@@ -1,3 +1,8 @@
+import sklearn
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.linear_model import Ridge
 import streamlit as st
 import pandas as pd
 import pickle
@@ -209,4 +214,5 @@ st.sidebar.markdown(
 
     **Price Unit:** The output price is displayed in **Crores** (1 Crore = 10 Million INR).
     """
+
 )
